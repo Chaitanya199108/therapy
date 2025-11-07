@@ -75,7 +75,7 @@ const Home = () => {
                 asChild
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
-                <Link to="/contact">KNOW MORE</Link>
+                <Link to="/about">KNOW MORE</Link>
               </Button>
               
               <Button 

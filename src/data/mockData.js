@@ -44,7 +44,8 @@ export const contactInfo = {
   phones: [
     "+91 95735 30613"
   ],
-  email: "behaviouraltherapy@gmail.com",
+      
+  email: "behaviouralhealingtherapycentre@gmail.com",
   addresses: [
     {
       name: "Behaviour Healing Therapy Center",
