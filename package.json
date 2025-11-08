@@ -2,7 +2,7 @@
   "name": "auitsmkids-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chaitanya199108.github.io/therapy",
+  "homepage": "https://chaitanya199108.github.io/therapy/",
   "scripts": {
     "start": "npx http-server -p 3000",
     "start:python": "python -m http.server 3000",
