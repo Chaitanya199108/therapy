@@ -125,7 +125,7 @@ const Home = () => {
             <div className="relative order-2 lg:order-1">
               <div className="relative rounded-3xl overflow-hidden shadow-xl">
                 <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ev79hVYX0i8cYYcLuy52D0dBWKZkM5mtdw&s"
+                  src="https://www.atlantaparent.com/wp-content/uploads/2022/03/iStock-1296235448-scaled.jpg"
                   alt="Therapist working with child"
                   className="w-full h-96 object-cover"
                 />
