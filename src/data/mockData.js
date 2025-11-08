@@ -56,12 +56,12 @@ export const contactInfo = {
    
   ],
   hours: {
-    monday: "8:00 AM - 6:00 PM",
-    tuesday: "8:00 AM - 6:00 PM",
-    wednesday: "8:00 AM - 6:00 PM",
-    thursday: "8:00 AM - 6:00 PM",
-    friday: "8:00 AM - 5:00 PM",
-    saturday: "9:00 AM - 2:00 PM",
+    monday: "9:30 AM - 6:30 PM",
+    tuesday: "9:30 AM - 6:30 PM",
+    wednesday: "9:30 AM - 6:30 PM",
+    thursday: "9:30 AM - 6:30 PM",
+    friday: "9:30 AM - 6:30 PM",
+    saturday: "9:30 AM - 5:00 PM",
     sunday: "Closed"
   }
 };
@@ -114,7 +114,7 @@ export const blogPosts = [
     category: 'Autism',
     tags: ['Early Intervention', 'Child Development', 'Autism Signs'],
     readTime: '5 min',
-    image: 'https://images.unsplash.com/photo-1602052793312-c6c2091966c4?w=800&h=400&fit=crop'
+    image: 'https://www.parents.com/thmb/GA4F3W8xUyqq4DUW1xu1rYZ8bEY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Parents-Autism-Babies-471fd80065354d17ad933c557a2f31ea.jpg'
   },
   {
     id: 'blog2',
@@ -159,6 +159,6 @@ export const blogPosts = [
     category: 'Sensory',
     tags: ['Sensory Processing', 'Environmental Design', 'Accommodation'],
     readTime: '8 min',
-    image: 'https://images.unsplash.com/photo-1615147342761-9238e17ef448?w=800&h=400&fit=crop'
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtOMOFQjw9XwoGu-oan-f-KChw6lpY8DlsAQ&s'
   }
 ]
