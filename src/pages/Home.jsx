@@ -94,7 +94,7 @@ const Home = () => {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-700">
               <img
-                src="assets\images\Parent Teacher Conference.webp"
+                src="https://raisingchildren.net.au/__data/assets/image/0024/98340/Playing-with-others-autistic-children-wide.jpg"
                 alt="Parents and therapist discussing child's progress"
                 className="w-full h-96 object-cover"
               />
@@ -125,7 +125,7 @@ const Home = () => {
             <div className="relative order-2 lg:order-1">
               <div className="relative rounded-3xl overflow-hidden shadow-xl">
                 <img
-                  src="assets\images\images2.jpeg"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ev79hVYX0i8cYYcLuy52D0dBWKZkM5mtdw&s"
                   alt="Therapist working with child"
                   className="w-full h-96 object-cover"
                 />
