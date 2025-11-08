@@ -117,7 +117,7 @@ const AboutUs = () => {
 
             <div className="relative">
               <img
-                src="https://cdn.prod.website-files.com/66bfa8cb8d4172ceb303122a/6850da0aeb106176051231ca_ECEC-Autism-Blog-Header-900x600-v1%20(1).jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDTWyH3pLIcuEubaPrkNe6rGMrIJBnsbzSUw&s"
                 alt="Children in therapy activities"
                 className="w-full h-96 object-cover rounded-2xl shadow-xl"
               />
