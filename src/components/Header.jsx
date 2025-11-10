@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ChevronDown, Menu, X } from "lucide-react";
+import { ChevronDown, Menu, X, Scale } from "lucide-react";
 import { Button } from "./ui/button";
-
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,8 +13,8 @@ const Header = () => {
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
-    {
-      name: "Services",
+    { 
+      name: "Services", 
       path: "/services",
       hasDropdown: true,
       subItems: [
@@ -25,35 +24,28 @@ const Header = () => {
         { name: "Group Therapy", path: "/services/group-activity" },
         { name: "ABA", path: "/services/assessment-counselling" },
         { name: "School for Children with AUTISM", path: "/services/special-school" },
-      ],
+      ]
     },
+   
     { name: "Blog", path: "/blog" },
     { name: "Contact Us", path: "/contact" },
+   
   ];
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          {/* Logo Section */}
+          {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-12 h-12 rounded-full overflow-hidden transform group-hover:scale-105 transition-transform duration-300 shadow-md">
-              <img
-                src={logo}
-                alt="Behavioral Therapy Center Logo"
-                className="w-full h-full object-cover"
-              />
+            <div className="bg-gradient-to-br from-blue-600 to-green-500 p-3 rounded-full transform group-hover:scale-105 transition-transform duration-300">
+              <Scale className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1
-                className="text-2xl font-bold text-slate-800"
-                style={{ fontFamily: "Georgia, serif" }}
-              >
-                Behavioral Therapy
+              <h1 className="text-2xl font-bold text-slate-800" style={{fontFamily: 'Georgia, serif'}}>
+                
               </h1>
-              <p className="text-xs text-slate-600 -mt-1">
-                Healing Center
-              </p>
+              <p className="text-xs text-slate-600 -mt-1">Behavioral Therapy Center</p>
             </div>
           </Link>
 
@@ -62,7 +54,7 @@ const Header = () => {
             {menuItems.map((item) => (
               <div key={item.name} className="relative group">
                 {item.hasDropdown ? (
-                  <div
+                  <div 
                     className="flex items-center cursor-pointer"
                     onMouseEnter={() => setIsServicesOpen(true)}
                     onMouseLeave={() => setIsServicesOpen(false)}
@@ -70,16 +62,15 @@ const Header = () => {
                     <Link
                       to={item.path}
                       className={`flex items-center space-x-1 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:text-blue-600 ${
-                        isActiveRoute(item.path) ||
-                        location.pathname.startsWith("/services")
-                          ? "text-blue-600 bg-blue-50"
-                          : "text-slate-700 hover:bg-blue-50"
+                        isActiveRoute(item.path) || location.pathname.startsWith('/services')
+                          ? 'text-blue-600 bg-blue-50'
+                          : 'text-slate-700 hover:bg-blue-50'
                       }`}
                     >
                       <span>{item.name}</span>
                       <ChevronDown className="h-4 w-4" />
                     </Link>
-
+                    
                     {/* Dropdown Menu */}
                     {isServicesOpen && (
                       <div className="absolute top-full left-0 mt-2 w-80 bg-white rounded-xl shadow-xl border border-slate-100 py-2 z-50">
@@ -101,8 +92,8 @@ const Header = () => {
                     to={item.path}
                     className={`px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:text-blue-600 ${
                       isActiveRoute(item.path)
-                        ? "text-blue-600 bg-blue-50"
-                        : "text-slate-700 hover:bg-blue-50"
+                        ? 'text-blue-600 bg-blue-50'
+                        : 'text-slate-700 hover:bg-blue-50'
                     }`}
                   >
                     {item.name}
@@ -133,8 +124,8 @@ const Header = () => {
                     to={item.path}
                     className={`block px-3 py-3 rounded-lg text-sm font-medium transition-all duration-300 ${
                       isActiveRoute(item.path)
-                        ? "text-blue-600 bg-blue-50"
-                        : "text-slate-700 hover:bg-blue-50 hover:text-blue-600"
+                        ? 'text-blue-600 bg-blue-50'
+                        : 'text-slate-700 hover:bg-blue-50 hover:text-blue-600'
                     }`}
                     onClick={() => setIsMenuOpen(false)}
                   >
