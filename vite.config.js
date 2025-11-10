@@ -6,4 +6,4 @@ export default defineConfig({
   base: '/', // ✅ must exactly match your repo name
   
   }
-})
+)
