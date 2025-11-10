@@ -56,12 +56,12 @@ export const contactInfo = {
    
   ],
   hours: {
-    monday: "9:30 AM - 6:30 PM",
-    tuesday: "9:30 AM - 6:30 PM",
-    wednesday: "9:30 AM - 6:30 PM",
-    thursday: "9:30 AM - 6:30 PM",
-    friday: "9:30 AM - 6:30 PM",
-    saturday: "9:30 AM - 5:00 PM",
+    monday: "9:30 AM - 7:00 PM",
+    tuesday: "9:30 AM - 7:00 PM",
+    wednesday: "9:30 AM - 7:00 PM",
+    thursday: "9:30 AM - 7:00 PM",
+    friday: "9:30 AM - 7:00 PM",
+    saturday: "9:30 AM - 7:00 PM",
     sunday: "Closed"
   }
 };
