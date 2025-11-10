@@ -58,7 +58,7 @@ const AboutUs = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-5xl font-bold text-slate-800 mb-6">
-              About Harmony Behavioral Therapy Center
+              About Behavioral Therapy Center
             </h1>
             <p className="text-xl text-slate-600 leading-relaxed">
               Where every behavior challenge becomes an opportunity for growth, 
