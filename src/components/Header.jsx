@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
-import logo from "../assets/images/healing center.jpg"; // ✅ your logo import
+import logo from "assets/images/healing center.jpg; // ✅ your logo import
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
