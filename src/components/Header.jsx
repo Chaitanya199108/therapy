@@ -43,7 +43,7 @@ const Header = () => {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-slate-800" style={{fontFamily: 'Georgia, serif'}}>
-                Harmony
+                
               </h1>
               <p className="text-xs text-slate-600 -mt-1">Behavioral Therapy Center</p>
             </div>
