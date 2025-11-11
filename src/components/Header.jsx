@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ChevronDown, Menu, X, Scale } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import healingCenterImg from "../../assets/images/healing-center.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +20,7 @@ const Header = () => {
       hasDropdown: true,
       subItems: [
         { name: "Early Intervention", path: "/services/early-intervention" },
-        { name: "Behavioral Therapy", path: "/services/global-development" },
+        { name: "Special Therapy", path: "/services/global-development" },
         { name: "Speech Therapy", path: "/services/special-therapy" },
         { name: "Group Therapy", path: "/services/group-activity" },
         { name: "ABA", path: "/services/assessment-counselling" },
@@ -38,14 +39,16 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="bg-gradient-to-br from-blue-600 to-green-500 p-3 rounded-full transform group-hover:scale-105 transition-transform duration-300">
-              <Scale className="h-6 w-6 text-white" />
-            </div>
+            <img 
+              src={healingCenterImg} 
+              alt="Harmony Logo" 
+              className="h-12 w-12 rounded-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+            />
             <div>
               <h1 className="text-2xl font-bold text-slate-800" style={{fontFamily: 'Georgia, serif'}}>
-                
+                Behavioral Therapy Center
               </h1>
-              <p className="text-xs text-slate-600 -mt-1">Behavioral Therapy Center</p>
+              <p className="text-xs text-slate-600 -mt-1"></p>
             </div>
           </Link>
 
