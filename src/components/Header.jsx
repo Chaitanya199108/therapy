@@ -25,7 +25,7 @@ const Header = () => {
          { name: "Special Education", path: "/services/special-therapy" },
         { name: "Group Therapy", path: "/services/group-activity" },
         { name: "ABA", path: "/services/assessment-counselling" },
-        { name: "School for Children with AUTISM", path: "/services/special-school" },
+        { name: "Schooling for Children with AUTISM", path: "/services/special-school" },
       ]
     },
    
