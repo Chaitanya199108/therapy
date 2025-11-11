@@ -20,8 +20,9 @@ const Header = () => {
       hasDropdown: true,
       subItems: [
         { name: "Early Intervention", path: "/services/early-intervention" },
-        { name: "Special Therapy", path: "/services/global-development" },
+        { name: "Behavioral Therapy", path: "/services/global-development" },
         { name: "Speech Therapy", path: "/services/special-therapy" },
+         { name: "Special Education", path: "/services/special-therapy" },
         { name: "Group Therapy", path: "/services/group-activity" },
         { name: "ABA", path: "/services/assessment-counselling" },
         { name: "School for Children with AUTISM", path: "/services/special-school" },
